@@ -1,3 +1,2 @@
-vgg19EMd1.h5 filter=lfs diff=lfs merge=lfs -text
-vgg19EMD1.h5 filter=lfs diff=lfs merge=lfs -text
+vgg16EMD1.h5 filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
