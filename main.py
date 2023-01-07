@@ -12,7 +12,7 @@ import skimage.io
 import keras.backend as K
 import tensorflow as tf
 face_classifier = cv2.CascadeClassifier(r'haarcascade_frontalface_default.xml')
-classifier =load_model(r'vgg16EMD1.h5')
+classifier =load_model(r'vgg16EMD.h5')
 
 class_labels=['angry','disgust','fear','happy','neutral','sad','surprise']
 cap=cv2.VideoCapture(0)
